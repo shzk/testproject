@@ -1,0 +1,155 @@
+body {
+  font-family: "Open Sans";
+}
+.section__ui {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.heading__ui {
+  color: #037ec6;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.nav__ui li {
+  margin-bottom: 10px;
+}
+.nav__ui li a {
+  text-transform: uppercase;
+  color: #777;
+}
+.nav__ui li a:hover {
+  color: #2196f3;
+}
+.heading__1 {
+  font-size: 28px;
+  font-weight: 800;
+}
+.heading__2 {
+  font-size: 26px;
+  font-weight: 600;
+}
+.heading__3 {
+  font-size: 24px;
+  font-weight: 800;
+}
+.heading__4 {
+  font-size: 20px;
+  font-weight: 800;
+}
+.heading__5 {
+  font-size: 18px;
+  font-weight: 800;
+}
+.heading__6 {
+  font-size: 16px;
+  font-weight: 800;
+}
+.content__text {
+  font-size: 16px;
+  line-height: 2.0;
+}
+.content__link {
+  color: #037ec6;
+}
+.content__list {
+  list-style: square outside;
+}
+.content__list li {
+  color: #037ec6;
+  margin-bottom: 20px;
+}
+.content__list li span {
+  color: #000;
+}
+.button {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  color: #037ec6;
+  padding: 14px 30px;
+  margin-top: 20px;
+  /* optional */
+  margin-bottom: 20px;
+  /* optional */
+  border-color: #dde8ee;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50px;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.button i {
+  padding-left: 8px;
+}
+.button:hover {
+  background-color: #dde8ee;
+}
+.button:active {
+  background-color: #b4dff6;
+  border-color: #b4dff6;
+}
+.button--edit {
+  color: #ffffff;
+  background-color: #ffba00;
+  border-color: #ffba00;
+}
+.button--edit:hover {
+  background-color: #ffcf3e;
+  border-color: #ffcf3e;
+}
+.button--edit:active {
+  background-color: #f29a00;
+  border-color: #f29a00;
+}
+.button--delete {
+  font-size: 14px;
+  color: #ffffff;
+  padding: 9px 20px;
+  background-color: #b51919;
+  border-color: #b51919;
+}
+.button--delete:hover {
+  background-color: #e70c0c;
+  border-color: #e70c0c;
+}
+.button--delete:active {
+  background-color: #990101;
+  border-color: #990101;
+}
+.button--save {
+  color: #ffffff;
+  background-color: #037ec6;
+  border-color: #037ec6;
+}
+.button--save:hover {
+  background-color: #0094eb;
+  border-color: #0094eb;
+}
+.button--save:active {
+  background-color: #0069a7;
+  border-color: #0069a7;
+}
+.button--login {
+  color: #037ec6;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  -webkit-box-shadow: 3px 5px 16px 0px rgba(23, 50, 66, 0.75);
+  box-shadow: 3px 5px 16px 0px rgba(23, 50, 66, 0.75);
+}
+.button--login:hover {
+  color: #ffffff;
+  background-color: #037ec6;
+  border-color: #037ec6;
+}
+.button--login:active {
+  background-color: #0069a7;
+  border-color: #0069a7;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(23, 50, 66, 0.75);
+  box-shadow: 0px 1px 4px 0px rgba(23, 50, 66, 0.75);
+}
+

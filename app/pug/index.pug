@@ -1,0 +1,26 @@
+extends layouts/main.pug
+
+block variables
+	- var title = 'Главная страница'
+	- var pageClass = 'index-page'
+
+block content
+	h1 Навигация по UI
+	ul(class='nav__ui')
+		li
+			a(href='ui-buttons.html') UI Buttons - Кнопки
+		li
+			a(href='ui-typography.html') UI Typography - Типографика
+		li
+			a(href='ui-element.html') UI Element - Вспомогательные элементы
+		li
+			a(href='ui-forms.html') UI Forms - Формы
+		li
+			a(href='ui-header.html') UI Header - Шапка
+		li
+			a(href='ui-card.html') UI Card - Карточка пост и портфолио
+		li
+			a(href='ui-blog.html') UI Blog - Блог и оставить комментарий
+		li
+			a(href='ui-comment.html') UI Comment - Два комментария, зарегистрироваться, сообщение от пользователя
+
