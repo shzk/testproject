@@ -2,7 +2,8 @@ mixin button(text, link, btnclass, icon)
     if icon
         a(href=link class="button " + btnclass)
             | #{text}
-            i(class="fa " + icon)
+            span
+                i(class="fas " + icon)
             
     else
         a(href=link class="button " + btnclass)
